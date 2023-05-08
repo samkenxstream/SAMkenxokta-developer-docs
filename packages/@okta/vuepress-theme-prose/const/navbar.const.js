@@ -159,6 +159,10 @@ export const guides = [
             title: "Redirect authentication",
             subLinks: [
               {
+                title: "Sign in to SPA with AuthJS",
+                guideName: "auth-js-redirect",
+              },
+              {
                 title: "Sign in to SPA",
                 guideName: "sign-into-spa-redirect",
               },
@@ -316,10 +320,6 @@ export const guides = [
               {
                 title: "Okta Verify",
                 guideName: "authenticators-okta-verify"
-              },
-              {
-                title: "Custom authenticator",
-                guideName: "authenticators-custom-authenticator"
               },
               {
                 title: "Google authenticator",
@@ -489,10 +489,6 @@ export const guides = [
           {
             title: "Create an authorization server",
             guideName: "customize-authz-server",
-          },
-          {
-            title: "Transactional verification using CIBA",
-            guideName: "configure-ciba",
           },
           {
             title: "Configure SSO for native apps",
@@ -827,7 +823,9 @@ export const languagesSdk = [
          {
             title: "Server-side",
             subLinks: [
-               { title: ".NET", path: "/code/dotnet/aspnetcore/" },
+               { title: "ASP.NET Core", path: "/code/dotnet/aspnetcore/" },
+               { title: "ASP.NET Framework", path: "/code/dotnet/aspnet/" },
+               { title: "Blazor", path: "/code/dotnet/blazor/" },
                { title: "Go", path: "/code/go/" },
                { title: "Java", path: "/code/java/" },
                { title: "Node.js", path: "/code/nodejs/" },
@@ -941,7 +939,6 @@ export const reference = [
                { title: "MyAccount", path: "/docs/reference/api/myaccount/" },
                { title: "Org", path: "/docs/reference/api/org/" },
                { title: "Policy", path: "/docs/reference/api/policy/" },
-               { title: "Push Providers", path: "/docs/reference/api/push-providers/" },
                { title: "Risk Events", path: "/docs/reference/api/risk-events/" },
                { title: "Risk Providers", path: "/docs/reference/api/risk-providers/" },
                { title: "Schemas", path: "/docs/reference/api/schemas/" },
